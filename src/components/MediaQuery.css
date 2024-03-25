@@ -1,0 +1,174 @@
+@media only screen and (max-width: 768px) {
+  table {
+    width: 100%; /* Make table full width on smaller screens */
+  }
+
+  th,
+  td {
+    padding: 8px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .navbar ul li {
+    /* display: block; */
+    margin: 5px 0;
+  }
+  .navbar button {
+    padding: 6px 12px;
+    margin-left: 5px;
+  }
+  .top-class,
+  .top-class-e {
+    width: 90%; /* Adjust width for smaller screens */
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  th,
+  td {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .top-class,
+  .top-class-e {
+    width: 60%; /* Adjust width for smaller screens */
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  img {
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar button {
+    font-size: 13px;
+    padding: 3px 6px;
+  }
+
+  .top-class {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  table {
+    width: 90%; /* Make table full width on smaller screens */
+  }
+
+  th,
+  td {
+    padding: 6px; /* Reduce padding for smaller screens */
+    font-size: 13px;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    margin-right: 12px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-class {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 364px) {
+  .navbar button {
+    padding: 3px 6px;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .top-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  table {
+    width: 95%; /* Make table full width on smaller screens */
+  }
+  th,
+  td {
+    padding: 4px; /* Reduce padding for smaller screens */
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  table {
+    width: 95%; /* Make table full width on smaller screens */
+  }
+  th,
+  td {
+    padding: 4px; /* Reduce padding for smaller screens */
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar button {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  .top-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  table {
+    width: 95%; /* Make table full width on smaller screens */
+  }
+  th,
+  td {
+    padding: 4px; /* Reduce padding for smaller screens */
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}

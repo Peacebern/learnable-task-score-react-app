@@ -1,0 +1,27 @@
+/* LandingPage.css */
+.landing-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.learning-paths {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+.learning-path-card {
+  background-color: #e9e6e6;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+  width: 250px;
+  transition: background-color 0.3s ease;
+}
+
+.learning-path-card:hover {
+  background-color: #dbdbdb;
+}

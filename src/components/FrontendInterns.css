@@ -1,0 +1,91 @@
+/* FrontendInterns.css */
+
+.interns-container {
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+  margin-top: 34px;
+}
+
+table {
+  width: 98%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-radius: 8px; /* Rounded corners for the table */
+  overflow: hidden; /* Hide overflow from rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #f8f9fa; /* Light gray background for header */
+  font-weight: bold; /* Bold font for header */
+}
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2; Alternate row background color
+} */
+
+tr:hover {
+  background-color: #e9ecef; /* Lighter background color on hover */
+}
+
+.top-class {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  /* background-color: #f2f2f2; */
+  border-radius: 5px;
+  margin-top: 4%; /*new*/
+  margin-bottom: 15px;
+}
+
+.top-class-e {
+  width: 50%;
+  height: 80px;
+  padding: 3px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(235, 236, 236, 0.3);
+  box-shadow: 0 1px 0 0 rgba(221, 221, 221, 1);
+}
+
+.top-class-e:hover {
+  /* background-color: #f2f2f2; */
+  background-color: #beb7a4;
+  color: #fff;
+}
+/* p {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+} */
+
+img {
+  width: 63px;
+  height: 63px;
+  border-radius: 20%;
+  margin-right: 12px;
+}
