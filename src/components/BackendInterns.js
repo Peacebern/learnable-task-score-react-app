@@ -6,7 +6,7 @@ const BackendInterns = () => {
   const [interns, setInterns] = useState([
     {
       id: 1,
-      name: "Victor Idam",
+      name: "Henry Okeke",
       info: "Backend ",
       Task1: 8,
       Task2: 10,
@@ -16,7 +16,7 @@ const BackendInterns = () => {
     },
     {
       id: 2,
-      name: "Emeka Austine",
+      name: "Valentine Ugwu",
       info: "Backend ",
       Task1: 9,
       Task2: 10,
@@ -26,7 +26,7 @@ const BackendInterns = () => {
     },
     {
       id: 3,
-      name: "Nuel Desmond",
+      name: "Ifeanyi Bernard",
       info: "Backend ",
       Task1: 10,
       Task2: 10,
@@ -36,7 +36,7 @@ const BackendInterns = () => {
     },
     {
       id: 4,
-      name: "Prince Williams",
+      name: "Oluchi Ngok",
       info: "Backend ",
       Task1: 8,
       Task2: 10,
@@ -45,7 +45,7 @@ const BackendInterns = () => {
     },
     {
       id: 5,
-      name: "Eze Arinze",
+      name: "Marcelliano Basset",
       info: "Backend ",
       Task1: 7,
       Task2: 10,
