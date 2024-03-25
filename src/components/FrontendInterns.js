@@ -7,7 +7,7 @@ const FrontendInterns = () => {
   const [interns, setInterns] = useState([
     {
       id: 1,
-      name: "Elizabeth Chinedu",
+      name: "Lizy Elliot",
       info: "Front-end",
       Task1: 7,
       Task2: 10,
@@ -16,7 +16,7 @@ const FrontendInterns = () => {
     },
     {
       id: 2,
-      name: "Eze Ifunanya",
+      name: "Eze Chisom",
       info: "Front-end",
       Task1: 10,
       Task2: 10,
@@ -56,20 +56,6 @@ const FrontendInterns = () => {
     // Add more interns
   ]);
 
-  // useEffect(() => {
-  //   // Calculate overall grade for each intern
-  //   const updatedInterns = interns.map((intern) => ({
-  //     ...intern,
-  //     overallGrade: (intern.Task1 + intern.Task2) / 2, // Calculate average
-  //   }));
-
-  //   // Sort interns based on their overall grades in descending order
-  //   const sortedInterns = [...updatedInterns].sort(
-  //     (a, b) => b.overallGrade - a.overallGrade
-  //   );
-
-  //   setInterns(sortedInterns);
-  // }, [interns]);
 
   // Deep comparison function to check if two arrays of objects are equal
   function isEqual(arr1, arr2) {
