@@ -6,20 +6,20 @@ import "./LandingPage.css";
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <h1>Welcome to Our Intern Program</h1>
-      <p>Choose your learning path:</p>
+      <h1>WELCOME TO LEARNABLE INTERNSHIP PROGRAM</h1>
+      <p>Choose your Track:</p>
       <div className="learning-paths">
         <Link to="/frontend" className="learning-path-card">
-          <h2>Frontend</h2>
+          <h2>FRONTEND</h2>
         </Link>
         <Link to="/backend" className="learning-path-card">
-          <h2>Backend</h2>
+          <h2>BACKEND</h2>
         </Link>
         <Link to="/web3" className="learning-path-card">
-          <h2>Web3</h2>
+          <h2>WEB3</h2>
         </Link>
         <Link to="/productdesign" className="learning-path-card">
-          <h2>Product Design</h2>
+          <h2>PRODUCT-DESIGN</h2>
         </Link>
       </div>
     </div>

@@ -23,5 +23,6 @@
 }
 
 .learning-path-card:hover {
-  background-color: #dbdbdb;
+  /* background-color: #dbdbdb; */
+  background-color: rgb(21, 128, 181);
 }
